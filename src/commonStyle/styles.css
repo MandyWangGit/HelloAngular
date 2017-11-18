@@ -445,3 +445,5 @@ template {
 [hidden] {
   display: none;
 }
+
+@import "iconfont.css";
