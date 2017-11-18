@@ -18,6 +18,16 @@ $height:44px;
             flex-flow:row nowrap;
             justify-content:space-between;
             align-items:center;
+            .items{
+              height:$height;
+              line-height:$height;
+              padding:0 10px;
+              &:hover,
+              &.active{
+                cursor:pointer;
+                background:rgba(0,0,0,.15);
+              }
+            }
             ul{
                 li{
                     display:inline-block;

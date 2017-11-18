@@ -1,6 +1,6 @@
 <header>
   <section>
-    <div class="items"><i class="icon icon-sort"></i> 核心知识</div>
+    <div [ngClass]="{items: true, active: panelShowed}" (click)="showPanel()"><i class="icon icon-sort"></i> 核心知识</div>
     <ul>
       <li><i class="icon icon-my_light"></i> 加入我们</li>
       <li><i class="icon icon-ask"></i> 问题解答</li>

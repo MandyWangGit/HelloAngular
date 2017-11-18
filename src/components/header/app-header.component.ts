@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app-header.component.scss']
 })
 export class AppHeaderComponent {
-  title = 'Hello Angular';
+  panelShowed: boolean = false;
+  showPanel(): void{
+    this.panelShowed = !this.panelShowed;
+  }
 }
