@@ -1,0 +1,31 @@
+$bg:#1976d2;
+$width:1280px;
+$height:44px;
+:host{
+    width:100%;
+    height:$height;
+    font-size:12px;
+    header{        
+        width:100%;
+        height:$height;
+        background:$bg;
+        color:#fff;
+        section{
+            width:$width;
+            height:$height;
+            margin:0 auto;
+            display:flex;
+            flex-flow:row nowrap;
+            justify-content:space-between;
+            align-items:center;
+            ul{
+                li{
+                    display:inline-block;
+                    &:first-child{
+                        margin-right:10px;
+                    }
+                }
+            }
+        }
+    }
+}
