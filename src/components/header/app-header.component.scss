@@ -31,9 +31,12 @@ $height:44px;
             ul{
                 li{
                     display:inline-block;
-                    vertical-align: middle;
-                    &:first-child{
-                        margin-right:10px;
+                    height:$height;
+                    line-height:$height;
+                    padding:0 10px;
+                    &:hover{
+                      cursor:pointer;
+                      background:rgba(0,0,0,.15);
                     }
                 }
             }
