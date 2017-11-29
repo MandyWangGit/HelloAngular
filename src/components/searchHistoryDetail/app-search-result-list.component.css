@@ -1,0 +1,17 @@
+:host{
+	display: block;
+}
+ul.searchHistoryList{
+	list-style-type: none;
+	width: 358px;
+	text-align: left;
+	margin:0 auto;
+	padding:0px;
+	background: azure;
+	padding-left: 2px;
+}
+ul.searchHistoryList li{
+	width: 354px;
+	height: 25px;
+	border: 1px solid #ddd
+}

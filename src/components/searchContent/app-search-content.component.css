@@ -1,0 +1,32 @@
+:host{
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	top: 35%;
+	transform: translateY(-50%);
+}
+img{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	margin-bottom: -5px;
+	cursor: pointer;
+}
+input{
+	font-size: 16px;
+	width: 350px;
+	height: 30px;
+	line-height: 30px;
+	margin:0 auto;
+}
+.searchLabel{
+	margin:0 auto;
+	height: 40px;
+	line-height: 40px;
+}
+#searchSection{
+	width: 100% !important;
+	height: 100px;
+}

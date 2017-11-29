@@ -1,0 +1,20 @@
+:host{
+    display:block;
+    width:100%;
+    height:30px;
+    background:#dedede;
+    line-height:30px;
+}
+.myInfor{
+    display:inline-block;
+    position:relative;
+    left:1120px;
+}
+a{
+    font-size:12px;
+    text-decoration:none;
+}
+a:hover{
+    cursor: pointer;
+    color:#fff
+}

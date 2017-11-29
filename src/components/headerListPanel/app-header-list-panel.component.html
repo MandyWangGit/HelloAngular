@@ -1,0 +1,11 @@
+<div>
+	<div class="prodList" (click) = "toggleShowProdListDetails($event)">
+		<i class="icon icon-sort"></i>
+		<span>产品列表</span>
+	</div>
+	<ul [ngClass]= "{'showPanelListDetail':showPanelListDetail}">
+		<li *ngFor ="let prod of prods">
+			<a href="#">{{prod.label}}</a>
+		</li>
+	</ul>
+</div>
